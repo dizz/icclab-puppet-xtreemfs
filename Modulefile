@@ -1,0 +1,10 @@
+name 'puppet-xtreemfs'
+version '0.1'
+
+author 'Andy Edmonds'
+license 'Apache 2.0'
+project_page ''
+source ''
+summary ''
+description ''
+dependency 'puppetlabs/apt', '>=0.0.4'

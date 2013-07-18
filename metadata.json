@@ -1,0 +1,29 @@
+{
+  "name": "puppet-xtreemfs",
+  "author": "Andy Edmonds",
+  "description": "",
+  "license": "Apache 2.0",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "0.1",
+  "checksums": {
+    "Modulefile": "a91c0dc22ba269b7de3cdeb80d75f1f9",
+    "README.markdown": "5cebb70007db21c3b222d5e6f1477b9b",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/aio.pp": "6e511959a9215b392a08f25b81d26f7a",
+    "manifests/init.pp": "ef1b48ec090d27cbe8c292365dec052b",
+    "manifests/master.pp": "fe13a1d37284e3021a8cb78a42bcfb89",
+    "manifests/worker.pp": "deb7b30de6295fa16de9711db2533b2e",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/osdconfig.properties.erb": "fa900fe863ca13a4a95d57f6750766ef",
+    "tests/init.pp": "da84204f8f1ff9d3e12be8953171fbcc"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": "\u003e\u003d0.0.4"
+    }
+  ]
+}
